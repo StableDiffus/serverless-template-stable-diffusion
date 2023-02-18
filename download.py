@@ -15,7 +15,7 @@ def download_model():
     )
 
     model = StableDiffusionPipeline.from_pretrained(
-        "Linaqruf/anything-v3.0", 
+        "stabilityai/stable-diffusion-2", 
         scheduler=lms,
         use_auth_token=HF_AUTH_TOKEN
     )
